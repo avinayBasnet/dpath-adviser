@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+}
+
+.para{
+    font-family: 'Poiret One', cursive; 
+    height: 54px; 
+    width: 25%;
+    float: left;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.ul-class {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    height: 54px;
+    width: 75%;
+    float: left;
+    background:rgba(0,0,0,0.5);
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+.home{
+    background: url("image1.jpg") no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 745px;
+}
+
+.about{
+    background: url("image6.jpg") no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 745px;
+}
+
+.feature{
+    background: url("image8.jpg") no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 745px;
+}
+
+.download{
+    background: url("image5.jpg") no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 900px;
+}
+
+.button{
+    font-family: 'Poiret One', cursive;
+    height:40px; 
+    width:20%; 
+    background-color: black;
+    background-attachment: fixed;
+    color: white;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.picture{
+    float:right;
+    width:50%;
+    height:300px;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    color: white;
+    margin-left: 15px;
+}
+
+.phone-content{
+    width: 50%;
+    float: left;
+    /*margin: 0 auto;*/
+    /*text-align: center;*/
+    font-family: 'Poiret One', cursive;
+    color: black;
+    font-size: 30px;
+    /*clear: both;*/
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.contact{
+    background: rgba(59,59,59,1);
+    background: -moz-linear-gradient(left, rgba(59,59,59,1) 0%, rgba(69,69,69,0.99) 12%, rgba(79,79,79,0.97) 25%, rgba(56,56,56,0.96) 39%, rgba(33,33,33,0.94) 50%, rgba(0,0,0,0.94) 51%, rgba(13,13,13,0.93) 60%, rgba(13,13,13,0.93) 66%, rgba(25,25,25,0.92) 72%, rgba(33,33,33,0.92) 76%, rgba(23,23,23,0.92) 91%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(59,59,59,1)), color-stop(12%, rgba(69,69,69,0.99)), color-stop(25%, rgba(79,79,79,0.97)), color-stop(39%, rgba(56,56,56,0.96)), color-stop(50%, rgba(33,33,33,0.94)), color-stop(51%, rgba(0,0,0,0.94)), color-stop(60%, rgba(13,13,13,0.93)), color-stop(66%, rgba(13,13,13,0.93)), color-stop(72%, rgba(25,25,25,0.92)), color-stop(76%, rgba(33,33,33,0.92)), color-stop(91%, rgba(23,23,23,0.92)));
+    background: -webkit-linear-gradient(left, rgba(59,59,59,1) 0%, rgba(69,69,69,0.99) 12%, rgba(79,79,79,0.97) 25%, rgba(56,56,56,0.96) 39%, rgba(33,33,33,0.94) 50%, rgba(0,0,0,0.94) 51%, rgba(13,13,13,0.93) 60%, rgba(13,13,13,0.93) 66%, rgba(25,25,25,0.92) 72%, rgba(33,33,33,0.92) 76%, rgba(23,23,23,0.92) 91%);
+    background: -o-linear-gradient(left, rgba(59,59,59,1) 0%, rgba(69,69,69,0.99) 12%, rgba(79,79,79,0.97) 25%, rgba(56,56,56,0.96) 39%, rgba(33,33,33,0.94) 50%, rgba(0,0,0,0.94) 51%, rgba(13,13,13,0.93) 60%, rgba(13,13,13,0.93) 66%, rgba(25,25,25,0.92) 72%, rgba(33,33,33,0.92) 76%, rgba(23,23,23,0.92) 91%);
+    background: -ms-linear-gradient(left, rgba(59,59,59,1) 0%, rgba(69,69,69,0.99) 12%, rgba(79,79,79,0.97) 25%, rgba(56,56,56,0.96) 39%, rgba(33,33,33,0.94) 50%, rgba(0,0,0,0.94) 51%, rgba(13,13,13,0.93) 60%, rgba(13,13,13,0.93) 66%, rgba(25,25,25,0.92) 72%, rgba(33,33,33,0.92) 76%, rgba(23,23,23,0.92) 91%);
+    background: linear-gradient(to right, rgba(59,59,59,1) 0%, rgba(69,69,69,0.99) 12%, rgba(79,79,79,0.97) 25%, rgba(56,56,56,0.96) 39%, rgba(33,33,33,0.94) 50%, rgba(0,0,0,0.94) 51%, rgba(13,13,13,0.93) 60%, rgba(13,13,13,0.93) 66%, rgba(25,25,25,0.92) 72%, rgba(33,33,33,0.92) 76%, rgba(23,23,23,0.92) 91%);
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 880px;
+}
+
+.content{
+    padding: 40px 85px;
+    text-decoration: none;
+    background:rgba(0,0,0,0.5);
+    border-radius: 15px;
+    font-size: 30px;
+    margin: 0 auto;
+    width: 500px;
+    display: block;
+    font-family: 'Poiret One', cursive;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.cont-heading{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    color:white;
+} 
+
+.address{
+    float: left;
+    width: 40%;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Poiret One', cursive;
+    margin-top: 200px;
+}
+
+.form{
+    float: right;
+    width: 25%;
+}
+
+.submit-button{
+    background-color: gray;
+    font-size: 20px;
+    padding: 12px 28px;
+    border-radius: 8px;
+}
+
+.footer{
+    height:40px; 
+    width:100%; 
+    background-color: grey;
+    background-attachment: fixed;
+}
